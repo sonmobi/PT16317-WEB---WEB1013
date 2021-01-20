@@ -1,0 +1,24 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: darkgray;
+}
+#page{
+    width: 1000px;
+    margin: 0px auto;
+    background-color: #fff;
+}
+header.top-page{
+    height: 100px;
+    background-color: cyan;
+}
+nav.main-menu{
+    height: 30px;
+    background-color: blue;  color: #fff;
+}
+article{float: left; min-height: 500px; width: 800px; background-color: bisque;  }
+aside{float: left; min-height: 500px; width: 200px; background-color: yellow; }
+footer.footer-page{
+    clear: both;
+    height: 200px; background-color: #ccc;
+}
