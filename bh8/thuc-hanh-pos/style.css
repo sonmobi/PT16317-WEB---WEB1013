@@ -1,0 +1,25 @@
+.sp{
+    width: 250px;
+    height: 300px;
+    border: 1px solid red
+}
+.sp h2{
+    font-size: 20px;
+    margin: 10px 0px;
+    text-align: center;
+}
+.sp .product{
+    width: 150px;
+    position: relative;
+    left: -30px;
+}
+.sp .spec {
+      position: relative;
+    top: -179px;
+    left: 177px;  
+}
+.sp .price1{ text-decoration: line-through; padding-left: 10px;}
+.sp .price2{ font-size: 20px; padding-left: 10px;}
+.sp .tool{
+    width: 30px; position: relative; top: -100px; left: 205px;
+}
