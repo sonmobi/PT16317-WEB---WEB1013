@@ -4,6 +4,8 @@
     border: 1px solid red;
     margin: 10px;
     float: left;
+    overflow: hidden;  /*ẩn nội dung thừa trong thẻ*/
+    border-radius: 10px;
 }
 .sp h2{
     font-size: 20px;
