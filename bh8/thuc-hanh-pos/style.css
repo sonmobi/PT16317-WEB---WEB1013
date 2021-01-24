@@ -1,7 +1,9 @@
 .sp{
     width: 250px;
     height: 300px;
-    border: 1px solid red
+    border: 1px solid red;
+    margin: 10px;
+    float: left;
 }
 .sp h2{
     font-size: 20px;
