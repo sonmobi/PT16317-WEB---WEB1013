@@ -6,9 +6,18 @@
     list-style: none;
     font-size: 0px;
 }
-#h-menu ul li{
+#h-menu ul li{ width: 200px;}
+#h-menu > ul > li{
     display: inline-block;
+    position: relative;
 }
+#h-menu > ul > li ul{
+    position: absolute; display: none;
+}
+#h-menu ul li:hover > ul{
+    display: block
+}
+
 #h-menu ul li a{
     font-size: 15px;
     display: block; 
