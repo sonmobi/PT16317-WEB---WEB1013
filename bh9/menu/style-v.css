@@ -1,0 +1,24 @@
+#v-menu{
+    width: 200px;
+    background-color: yellow;
+}
+#v-menu ul{ padding: 0px;
+    list-style: none;
+}
+#v-menu ul li a{
+    display: block; 
+    text-decoration: none;
+    padding:5px; 
+    border: 1px solid red;
+    font-family: Arial; color: blue;
+
+    background-image: url("ic_arr.png");
+    background-repeat: no-repeat;
+    background-position-y: 6px;
+    padding-left: 20px;
+    background-size: 15px;
+    background-color: greenyellow;
+}
+#v-menu ul li a:hover{ background-color: yellow;
+    text-shadow: 3px 3px 5px green;
+}
