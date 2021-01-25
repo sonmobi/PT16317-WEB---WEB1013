@@ -1,0 +1,30 @@
+#h-menu{
+    width: 1000px;
+    /* background-color: yellow; */
+}
+#h-menu ul{ padding: 0px;
+    list-style: none;
+    font-size: 0px;
+}
+#h-menu ul li{
+    display: inline-block;
+}
+#h-menu ul li a{
+    font-size: 15px;
+    display: block; 
+    text-decoration: none;
+    padding:5px; 
+    border: 1px solid red;
+    font-family: Arial; color: blue;
+
+    background-image: url("ic_arr.png");
+    background-repeat: no-repeat;
+    background-position-y: 6px;
+    padding-left: 20px;
+    background-size: 15px;
+    background-color: greenyellow;
+     
+}
+#h-menu ul li a:hover{ background-color: yellow;
+    text-shadow: 3px 3px 5px green;
+}
