@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        thead{ background-color: yellowgreen;}
+        tbody tr:nth-child(2n+1){
+            background-color: yellow;
+        }
+        tbody tr:nth-child(2n){
+            background-color: cyan;
+        }
+        tbody tr:hover{
+            background-color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <h2>Bảng điểm</h2>
+    <table border="1" cellpadding="10" 
+    style="border-collapse:collapse">
+        <thead>
+            <tr>
+                <th rowspan="2">STT</th>
+                <th rowspan="2">Họ tên</th>
+                <th colspan="3">Điểm</th>
+                <!-- <td>z</td>
+                <td>z</td> -->
+            </tr>
+            <tr>
+                <!-- <td>STT</td> -->
+                <!-- <td>Họ tên</td> -->
+                <th>Toán</th>
+                <th>Lý</th>
+                <th>Hóa</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Nguyễn A</td>
+                <td>7</td>
+                <td>8</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Trần B</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Trần B</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Trần B</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>   
+        </tbody>
+        
+    </table>
+
+
+</body>
+</html>
